@@ -5,7 +5,7 @@
     --dark: #111;
     --darkGrey: #474b4f;
     --lightGrey: #6b6e70;
-    --lightGreen: #86c232;
+    --lightGreen: #F4E1C1;
     --darkGreen: #61892f;
     --transition: all 0.5s ease;
 }
@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5, h6, p{
     color: var(--white);
 }
 .brand-name{
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     cursor: pointer;
 }
 .navBtn{
