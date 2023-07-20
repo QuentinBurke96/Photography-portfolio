@@ -146,15 +146,14 @@ h1, h2, h3, h4, h5, h6, p{
     margin-top: -160px;
 }
 .about-content img{
-    
-    width: 140px;
+    width: 200px;
     height: 140px;
     border-radius: 50%;
-    object-fit: cover;
+    /* object-fit: cover ; */
 }
 .about-img{
     background: #fff;
-    width: 150px;
+    width: 210px;
     height: 150px;
     margin: 0 auto;
     border-radius: 50%;
