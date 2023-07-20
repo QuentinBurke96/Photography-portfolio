@@ -20,7 +20,8 @@ app.post('/', (req, res) => {
         service: 'gmail',
         auth: {
             user: 'qkspace.info@gmail.com',
-            pass: 
+            // Store password in environment variable
+            pass: ''
         }
     })
 
@@ -37,7 +38,7 @@ app.post('/', (req, res) => {
             res.send('error');
         }else{
             console.log('Email sent ' + info.response);
-            res.send('Success')
+            res.send('success')
         }
      })
 })
