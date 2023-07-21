@@ -210,7 +210,7 @@ blockquote span{
 .social-icons ul{
     display: flex;
     justify-content: center;
-    padding: 5px;
+    
 }
 .social-icons ul a:hover{
     background: var(--lightGreen);
