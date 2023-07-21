@@ -209,7 +209,8 @@ blockquote span{
 }
 .social-icons ul{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    padding: 5px;
 }
 .social-icons ul a:hover{
     background: var(--lightGreen);
@@ -339,20 +340,6 @@ blockquote span{
 .single-img{
     position: relative;
     margin: 10px;
-}
-.single-img-content{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    color: #fff;
-    padding: 5px 30px;
-    background: rgba(0, 0, 0, 0.7);
-}
-.single-img-content h3{
-    font-size: 18px;
-    font-weight: 300;
-    text-transform: uppercase;
 }
 
 /************** end of gallery.html ***********/
