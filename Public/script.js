@@ -37,6 +37,7 @@ contactForm.addEventListener('submit', (e) => {
     xhr.send(JSON.stringify(formData))
 })
 
+
 showBtn.addEventListener('click', function(){
     if(topNav.classList.contains('showNav')){
         topNav.classList.remove('showNav');
