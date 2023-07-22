@@ -92,9 +92,11 @@ h1, h2, h3, h4, h5, h6, p{
     padding: 15px 25px;
     color: var(--white);
 }
+
+
 .brand-name{
-    letter-spacing: 2px;
-    cursor: pointer;
+    max-width: 200px;
+    height: auto;
 }
 .navBtn{
     width: 40px;
@@ -149,7 +151,6 @@ h1, h2, h3, h4, h5, h6, p{
     width: 200px;
     height: 140px;
     border-radius: 50%;
-    /* object-fit: cover ; */
 }
 .about-img{
     background: #fff;
@@ -164,6 +165,12 @@ h1, h2, h3, h4, h5, h6, p{
     margin-bottom: 35px;
     color: var(--lightGreen);
 }
+
+.container-about {
+    position: relative; 
+    top: 10px;
+}
+
 .about-content h3{
     color: #fff;
     font-size: 30px;
