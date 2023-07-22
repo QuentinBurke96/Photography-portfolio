@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
 const nodemailer = require('nodemailer')
+require("dotenv").config()
 
 const PORT = process.env.PORT || 3000
 
@@ -20,8 +21,7 @@ app.post('/', (req, res) => {
         service: 'gmail',
         auth: {
             user: 'qkspace.info@gmail.com',
-            // Store password in environment variable
-            pass: '' 
+            pass: process.env.PASS 
 
         }
     })
