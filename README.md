@@ -126,7 +126,7 @@ This is an example of how to list things you need to use the software and how to
    ```
 4. Set environment variables `.env`
    ```js
-   // Note: Chrome requires application specific passwords. Navigate to Google -> Account -> Security to set up
+   // Note: Chrome requires application specific passwords. Navigate to Google -> Account -> Security to set up.
    Pass = "Application Specific Password"
    ```
 
