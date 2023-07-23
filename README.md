@@ -80,8 +80,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![branding][branding]]
-[![Product Name Screen Shot][product-screenshot]]
+[![branding][branding]
+[![Product Name Screen Shot][product-screenshot]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -205,5 +205,5 @@ Project Link: [https://github.com/dlongodev/family-meal-kitchen](https://github.
 [issues-url]: https://github.com/QuentinBurke96/Photography-portfolio/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/quentin-burke-57a606126/
-[product-screenshot]: /Public/images/QK-SM-Thumb-1.jpg
-[branding]: Public/images/QKS-MRKUP-2.jpg
+[product-screenshot]: /Public/images/QKS-MRKUP-2.jpg
+[branding]: Public/images/QK-SM-Thumb-1.jpg
