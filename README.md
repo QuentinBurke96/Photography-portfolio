@@ -186,7 +186,7 @@ Don't forget to give the project a star! Thanks again!
 
 Quentin Burke - qburke.edward@gmail.com
 
-Project Link: [https://github.com/dlongodev/family-meal-kitchen](https://github.com/dlongodev/family-meal-kitchen)
+Project Link: [https://github.com/QuentinBurke96/Photography-portfolio/tree/main](https://github.com/QuentinBurke96/Photography-portfolio/tree/main)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -197,7 +197,7 @@ Project Link: [https://github.com/dlongodev/family-meal-kitchen](https://github.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github.com/QuentinBurke96/Photography-portfolio.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/QuentinBurke96/Photography-portfolio.svg?style=for-the-badge
 [contributors-url]: https://github.com/QuentinBurke96/Photography-portfolio/graphs/contributors
 [forks-shield]: https://img.shields.io/github.com/QuentinBurke96/Photography-portfolio.svg?style=for-the-badge
 [forks-url]: https://github.com/QuentinBurke96/Photography-portfolio/forks
