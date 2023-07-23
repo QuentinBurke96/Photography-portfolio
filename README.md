@@ -87,9 +87,9 @@
 * [SimpleLightbox](https://simplelightbox.com/)
 * [Express.js](https://expressjs.com/)
 * [Nodemailer](https://nodemailer.com/about/)
-* [HTML5]
-* [CSS] 
-* [JS] 
+* HTML5
+* CSS
+* JS
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
