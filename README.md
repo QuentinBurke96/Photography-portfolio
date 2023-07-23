@@ -158,7 +158,6 @@ _For more examples, please refer to the [Documentation](https://example.com)_
     - [] Nested Feature -->
 
 
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
