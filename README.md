@@ -80,8 +80,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![branding][branding]](https://www.behance.net/gallery/135850573/Family-Meal-Kitchen)
-[![Product Name Screen Shot][product-screenshot]](https://familymealkitchen.com)
+[![branding][branding]]
+[![Product Name Screen Shot][product-screenshot]]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
