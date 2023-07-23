@@ -199,9 +199,9 @@ Project Link: [https://github.com/QuentinBurke96/Photography-portfolio/tree/main
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/QuentinBurke96/Photography-portfolio.svg?style=for-the-badge
 [contributors-url]: https://github.com/QuentinBurke96/Photography-portfolio/graphs/contributors
-[forks-shield]: https://img.shields.io/github.com/QuentinBurke96/Photography-portfolio.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/QuentinBurke96/Photography-portfolio.svg?style=for-the-badge
 [forks-url]: https://github.com/QuentinBurke96/Photography-portfolio/forks
-[issues-shield]: https://img.shields.io/github.com/QuentinBurke96/Photography-portfolio.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/QuentinBurke96/Photography-portfolio.svg?style=for-the-badge
 [issues-url]: https://github.com/QuentinBurke96/Photography-portfolio/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/quentin-burke-57a606126/
