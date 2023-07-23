@@ -12,8 +12,6 @@
 [![Issues][issues-shield]][issues-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-
-
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
@@ -22,8 +20,6 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -184,12 +180,6 @@ Don't forget to give the project a star! Thanks again!
 Quentin Burke - qburke.edward@gmail.com
 
 Project Link: [https://github.com/QuentinBurke96/Photography-portfolio/tree/main](https://github.com/QuentinBurke96/Photography-portfolio/tree/main)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
