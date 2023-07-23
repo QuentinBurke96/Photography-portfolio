@@ -7,6 +7,11 @@
 *** Thanks again! Now go create something AMAZING! :D
 -->
 
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Issues][issues-shield]][issues-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
 
 
 <!-- PROJECT SHIELDS -->
