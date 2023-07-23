@@ -30,7 +30,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/QuentinBurke96/Photography-portfolio">
-    <img src="Public/images/BLK Trsp.jpg" alt="Logo" width="150">
+    <img src="Public/images/BLK Trsp.jpg" alt="Logo" width="200">
   </a>
 
   <p align="center">
