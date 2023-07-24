@@ -3,6 +3,7 @@ const app = express()
 const nodemailer = require('nodemailer')
 require("dotenv").config()
 
+
 const PORT = process.env.PORT || 3000
 
 //Middleware
@@ -10,9 +11,11 @@ const PORT = process.env.PORT || 3000
 app.use(express.static('Public'))
 app.use(express.json())
 
+
 app.get('/', (req, res) => {
     res.sendFile(__dirname + '/Public/contact.html')
 })
+
 
 app.post('/', (req, res) => {
     console.log(req.body);
@@ -43,6 +46,8 @@ app.post('/', (req, res) => {
         }
      })
 })
+
+
 
 app.listen(PORT, () => {
     console.log(`Speeding on port ${PORT}`)
