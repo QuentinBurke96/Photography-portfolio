@@ -4,52 +4,94 @@ const nodemailer = require('nodemailer')
 require("dotenv").config()
 
 
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 3000;
 
-//Middleware
-
-app.use(express.static('Public'))
-app.use(express.json())
-
+// Middleware
+app.use(express.static('Public'));
+app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/Public/contact.html')
-})
+  res.sendFile(__dirname + '/Public/contact.html');
+});
 
+app.post('/', async (req, res) => {
+  console.log(req.body);
 
-app.post('/', (req, res) => {
-    console.log(req.body);
-
+  try {
     const transporter = nodemailer.createTransport({
-        service: 'gmail',
-        auth: {
-            user: 'qkspace.info@gmail.com',
-            pass: process.env.PASS 
-
-        }
-    })
+      service: 'gmail',
+      auth: {
+        user: 'qkspace.info@gmail.com',
+        pass: process.env.PASS,
+      },
+    });
 
     const mailOptions = {
-        from: req.body.email,
-        to: 'qkspace.info@gmail.com',
-        subject: `Message from ${req.body.email}: ${req.body.subject}`,
-        text: req.body.message
-    }
+      from: req.body.email,
+      to: 'qkspace.info@gmail.com',
+      subject: `Message from ${req.body.email}: ${req.body.subject}`,
+      text: req.body.message,
+    };
 
-    transporter.sendMail(mailOptions, (error, info) => {
-        if(error) {
-            console.log(error);
-            res.send('error');
-        }else{
-            console.log('Email sent ' + info.response);
-            res.send('success')
-        }
-     })
-})
-
-
+    const info = await transporter.sendMail(mailOptions);
+    console.log('Email sent ' + info.response);
+    res.send('success');
+  } catch (error) {
+    console.log(error);
+    res.send('error');
+  }
+});
 
 app.listen(PORT, () => {
-    console.log(`Speeding on port ${PORT}`)
+  console.log(`Speeding on port ${PORT}`);
+});
+
+// const PORT = process.env.PORT || 3000
+
+// //Middleware
+
+// app.use(express.static('Public'))
+// app.use(express.json())
+
+
+// app.get('/', (req, res) => {
+//     res.sendFile(__dirname + '/Public/contact.html')
+// })
+
+
+// app.post('/', (req, res) => {
+//     console.log(req.body);
+
+//     const transporter = nodemailer.createTransport({
+//         service: 'gmail',
+//         auth: {
+//             user: 'qkspace.info@gmail.com',
+//             pass: process.env.PASS 
+
+//         }
+//     })
+
+//     const mailOptions = {
+//         from: req.body.email,
+//         to: 'qkspace.info@gmail.com',
+//         subject: `Message from ${req.body.email}: ${req.body.subject}`,
+//         text: req.body.message
+//     }
+
+//     transporter.sendMail(mailOptions, (error, info) => {
+//         if(error) {
+//             console.log(error);
+//             res.send('error');
+//         }else{
+//             console.log('Email sent ' + info.response);
+//             res.send('success')
+//         }
+//      })
+// })
+
+
+
+// app.listen(PORT, () => {
+//     console.log(`Speeding on port ${PORT}`)
     
-})
+// })
